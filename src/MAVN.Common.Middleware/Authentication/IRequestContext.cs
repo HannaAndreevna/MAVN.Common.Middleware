@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace Falcon.Common.Middleware.Authentication
+namespace MAVN.Common.Middleware.Authentication
 {
     [PublicAPI]
     public interface IRequestContext

@@ -1,4 +1,4 @@
-﻿namespace Falcon.Common.Middleware
+﻿namespace MAVN.Common.Middleware
 {
     public static class UserAgentVariablesLowercase
     {

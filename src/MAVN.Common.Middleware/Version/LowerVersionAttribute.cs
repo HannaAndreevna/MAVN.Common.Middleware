@@ -3,12 +3,11 @@ using System.Linq;
 using System.Net;
 using Common;
 using JetBrains.Annotations;
-using MAVN.Common.Middleware;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Falcon.Common.Middleware.Version
+namespace MAVN.Common.Middleware.Version
 {
     [PublicAPI]
     public class LowerVersionAttribute : ActionFilterAttribute

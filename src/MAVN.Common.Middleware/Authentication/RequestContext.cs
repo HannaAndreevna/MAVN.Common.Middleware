@@ -1,8 +1,8 @@
 ﻿using JetBrains.Annotations;
-using Lykke.Service.Sessions.Client;
+using MAVN.Service.Sessions.Client;
 using Microsoft.AspNetCore.Http;
 
-namespace Falcon.Common.Middleware.Authentication
+namespace MAVN.Common.Middleware.Authentication
 {
     [PublicAPI]
     public class RequestContext : IRequestContext

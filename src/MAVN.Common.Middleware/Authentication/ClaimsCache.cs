@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading;
 
-namespace Falcon.Common.Middleware.Authentication
+namespace MAVN.Common.Middleware.Authentication
 {
     public class ClaimsCache
     {

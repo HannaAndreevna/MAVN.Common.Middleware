@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Principal;
 
-namespace Falcon.Common.Middleware.Authentication
+namespace MAVN.Common.Middleware.Authentication
 {
     public class LykkeIdentity : IIdentity
     {
