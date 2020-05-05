@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Falcon.Common.Middleware.Filters
+namespace MAVN.Common.Middleware.Filters
 {
     [PublicAPI]
     public class ApiKeyHeaderOperationFilter : IOperationFilter

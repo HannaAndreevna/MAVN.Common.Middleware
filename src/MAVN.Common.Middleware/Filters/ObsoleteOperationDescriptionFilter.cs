@@ -3,7 +3,7 @@ using System.Linq;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Falcon.Common.Middleware.Filters
+namespace MAVN.Common.Middleware.Filters
 {
     public class ObsoleteOperationDescriptionFilter : IOperationFilter
     {

@@ -1,9 +1,9 @@
 ﻿using System.Security.Claims;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using Lykke.Service.Sessions.Client;
+using MAVN.Service.Sessions.Client;
 
-namespace Falcon.Common.Middleware.Authentication
+namespace MAVN.Common.Middleware.Authentication
 {
     [PublicAPI]
     public class LykkePrincipal : ILykkePrincipal

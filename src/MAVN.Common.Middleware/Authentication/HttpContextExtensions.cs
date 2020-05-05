@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 
-namespace Falcon.Common.Middleware.Authentication
+namespace MAVN.Common.Middleware.Authentication
 {
     public static class HttpContextExtensions
     {

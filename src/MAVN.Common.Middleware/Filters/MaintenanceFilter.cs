@@ -4,13 +4,13 @@ using Common;
 using Common.Log;
 using JetBrains.Annotations;
 using Lykke.Common.Log;
-using Lykke.Service.MaintenanceMode.Client;
-using Lykke.Service.MaintenanceMode.Client.Models.Responses;
+using MAVN.Service.MaintenanceMode.Client;
+using MAVN.Service.MaintenanceMode.Client.Models.Responses;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using StackExchange.Redis;
 
-namespace Falcon.Common.Middleware.Filters
+namespace MAVN.Common.Middleware.Filters
 {
     [PublicAPI]
     public class MaintenanceFilter : ActionFilterAttribute
